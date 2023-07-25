@@ -1,0 +1,112 @@
+.firstDiv {
+    height: 300px;
+    width: 350px;
+    /* background-color: gray; */
+    background: linear-gradient(to top, #333333, #999999);
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 40%;
+  }
+  .firstDiv::after {
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 90px; /* Adjust the height of the reflection as needed */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(190, 210, 210, 0));
+    opacity: 0.7; /* Adjust the opacity of the reflection as needed */
+    transform: scaleY(-1);
+    z-index: -1;
+  }
+  .secondDiv {
+    height: 87%;
+    width: 77%;
+    background-color: lightgray;
+    position: absolute;
+    left: 11%;
+    bottom: 7%;
+    border-radius: 50%;
+  }
+  
+  .thirdDiv {
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 50%;
+    height: 35%;
+    width: 35%;
+    top: 33%;
+    left: 32%;
+    display: flex;
+    border: 0px;
+  }
+  
+  .menuButton,
+  .forwardButton,
+  .backwardButton,
+  .pausePlayButton {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuButton {
+    top: 12%;
+    left: 43%;
+  }
+  
+  .pausePlayButton {
+    top: 77%;
+    left: 44%;
+  }
+  
+  .forwardButton {
+    left: 78%;
+    top: 45%;
+  }
+  
+  .backwardButton {
+    right: 79%;
+    top: 45%;
+  }
+  
+  .menuButton i,
+  .forwardButton i,
+  .backwardButton i,
+  .pausePlayButton i {
+    color: #fff;
+  }
+  
+  .menuButton:hover,
+  .forwardButton:hover,
+  .backwardButton:hover,
+  .pausePlayButton:hover,
+  .thirdDiv {
+    background-color: #999;
+  }
+  
+  .songPlay {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

@@ -1,0 +1,96 @@
+.outerDiv {
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(to bottom, #333333, #999999);
+    position: relative;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 40%;
+  }
+  
+  .innerDiv {
+    position: absolute;
+    height: 330px;
+    width: 90%;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    top: 4%;
+    left: 4.5%;
+    background-color: white;
+  }
+  
+  .menuDiv {
+    /* background-color: #f8efe0; */
+    border-radius: 15px;
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    z-index: 10;
+  }
+  
+  .imageDiv {
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }
+  .screenImage {
+    border-radius: 15px;
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    left: 3%;
+  }
+  .audioDiv1 {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #03254c, #1167b1);
+  }
+  .audioDiv2 {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #f8efe0, #fffaf1);
+  }
+  
+  .audioDiv3 {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #efbbff, #d896ff);
+  }
+  .songImage {
+    box-shadow: 10px 10px 8px #888888;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 6%;
+    border-radius: 10px;
+    /* left: 20%; */
+  }
+  
+  .audioBar {
+    position: absolute;
+    top: 65%;
+    /* height: 55px; */
+    /* width: 210px; */
+    left: 2.5%;
+  }
+  .musicDiv {
+    font-family: sans-serif;
+    background-color: #f8efe0;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    z-index: 1;
+  }
+  
