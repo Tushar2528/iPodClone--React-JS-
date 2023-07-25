@@ -20,7 +20,7 @@ class Wheel extends React.Component {
   }
 
   componentDidMount() {
-    const { toggleMenu, hoverIndex, handleRotate } = this.props;
+    const { handleRotate } = this.props;
     const secondDiv = document.querySelector(`.${wheelStyles.secondDiv}`);
     const gestureRegion = new ZingTouch.Region(secondDiv);
     gestureRegion.bind(secondDiv, "rotate", (event) => handleRotate(event));
