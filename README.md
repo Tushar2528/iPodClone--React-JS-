@@ -1,5 +1,7 @@
 iPod Clone Web App:
 
+Hosted Link - https://master--incandescent-sundae-5013b3.netlify.app/
+
 This is a simple iPod clone built using fundamental concepts of React JS like class based components, conditional rendering, React states etc.
 
 I had built this project when i initially started learning react JS and wanted to clear out my basics by doing a simple project.
